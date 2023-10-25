@@ -1,5 +1,9 @@
+<script setup>
+  const { data } = await useFetch('/api/getDemoData')
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <pre>{{ data }}</pre>  
   </div>
 </template>
