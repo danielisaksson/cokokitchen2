@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '/spa': { ssr: false },
   },
   nitro: {
+    //envPrefix: 'VERCEL_'
     preset: 'vercel-edge',
   },
 })
